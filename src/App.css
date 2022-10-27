@@ -61,6 +61,12 @@
 
 }
 
+.con3{
+  margin-top: 64px;
+
+  padding: 48px 0px;
+}
+
 .zuri-img{
   margin-left: -50px;
   width: 185.3px;
@@ -69,6 +75,10 @@
 .ingressive-img{
   margin-left: 270px;
   width: 132.13px;
+}
+
+.p2{
+  text-align: center;
 }
 
 
@@ -106,8 +116,6 @@
 }
 
 .con3{
-  margin-top: 32px;
-
   padding: 32px 0px;
 }
 
