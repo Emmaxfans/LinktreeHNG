@@ -1,0 +1,131 @@
+/* desktop view */
+
+.App{
+  font-family: inter;
+
+}
+
+.share-img{
+  padding-top: 20px;
+  float: right;
+
+}
+
+.share1-img{
+  display: none;
+}
+
+
+.profile-img{
+  margin-top: 20px;
+  border-radius: 275px;
+  height: 88px;
+  width: 88px;
+}
+
+.p1{
+  font-size: 20px;
+  color: #101828;
+  text-align: center;
+  font-weight: 700;
+}
+
+.con1{
+  height: 76px;
+  background: #EAECF0;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.con1 a{
+  text-decoration: none;
+  color: #101828;
+}
+
+.con2{
+  text-align: center;
+  margin-top: 24px;
+}
+
+.slack-img{
+  display: inline-block;
+  width: 24px;
+  height: 23.45px;
+}
+
+.git-img{
+  display: inline-block;
+  width: 24px;
+  height: 23.45px;
+  margin-left: 24px;
+
+}
+
+.zuri-img{
+  margin-left: -50px;
+  width: 185.3px;
+}
+
+.ingressive-img{
+  margin-left: 270px;
+  width: 132.13px;
+}
+
+
+
+/* mobile view */
+
+@media screen and (max-width: 680px) {
+
+  .share-img{
+    display: none;
+  }
+  .share1-img{
+    display: block;
+    float: right;
+    margin-top: 20px;
+  }
+
+  .profile-img{
+    margin-top: 20px;
+    border-radius: 275px;
+    height: 88px;
+    width: 88px;
+  }
+
+  
+.con1{
+  height: 68px;
+  background: #EAECF0;
+  text-decoration: none;
+  margin: 10px 0px;
+}
+
+.con2{
+  padding: 24px 0px ;
+}
+
+.con3{
+  margin-top: 32px;
+
+  padding: 32px 0px;
+}
+
+.zuri-img{
+  margin-left: 0px;
+  width: 185.3px;
+}
+
+.ingressive-img{
+  margin-left: 0px;
+  width: 132.13px;
+}
+
+.p2{
+  text-align: left;
+  margin-top: 20px;
+}
+
+
+  
+}
