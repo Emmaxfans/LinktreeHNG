@@ -6,8 +6,8 @@ function App() {
 
 
       <div className='profile'>
-      <img src='./images/profile.png' alt='profile-img' className='profile-img  img-fluid' id='profile__img'/>
-      <p className='p1'>@Emmax</p>
+      <img src='./images/IMG_6429-removebg-preview.png' alt='profile-img' className='profile-img  img-fluid' id='profile__img'/>
+      <p className='p1'>Emmanuel</p>
 
       <div className='share-img'>
         <i className="fa fa-share share-icon" aria-hidden="true"></i>
@@ -16,10 +16,15 @@ function App() {
 
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-12 md-6 sm-6  con1'> 
-              <a href='https://twitter.com/_Emmaxfans' id='twitter'>
-               <p className='text-center padding-con'>Twitter Link</p>
-              </a>          
+          <div className='col-lg-12 md-6 sm-6  con1'>    
+               <p className='text-center padding-con' id='twitter'>_Emmaxfans</p>           
+          </div>
+
+        </div>
+
+        <div className='row conx' >
+          <div className='col-lg-12 md-6 sm-6  con1'>  
+               <p className='text-center padding-con' id='slack'>Emmax</p>         
           </div>
 
         </div>

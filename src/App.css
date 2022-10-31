@@ -5,6 +5,10 @@
 
 }
 
+.conx{
+  display: none;
+}
+
 .share-img{
   display: flex;
   position: absolute;
@@ -34,6 +38,7 @@
 
 .profile-img{
   margin-top: 20px;
+  border-radius: 50%;
   height: 88px;
   width: 88px;
 }
