@@ -87,7 +87,7 @@
 .con3{
   margin-top: 64px;
 
-  padding: 48px 0px;
+  /* padding: 48px 0px; */
 }
 
 .zuri-img{
@@ -145,7 +145,8 @@
 }
 
 .con3{
-  padding: 32px 20px;
+  margin-top: 32px;
+  margin-left: 10px;
 }
 
 .zuri-img{
