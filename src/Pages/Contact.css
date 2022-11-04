@@ -1,0 +1,111 @@
+.contact{
+    font-family: inter;
+}
+
+.h111{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.container1{
+    width: 900px;
+    padding: 0px 200 0 200px;
+    margin-top: 64px;
+}
+
+.p-contact{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input-con1{
+    display: inline-block;
+    width: 50%;
+    padding: 0 20px 0 0;
+}
+
+.input-con2{
+    display: inline-block;
+    width: 50%;
+}
+
+.label1{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input-con3{
+    margin-top: 20px;
+}
+
+.input-con4{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.input-con5{
+    display: inline-block;
+    padding-left: 10px;
+    /* margin-top: 20px; */
+}
+
+.txt{
+    width: 700px;
+    border-radius: 8px;
+}
+.con3{
+    margin-top: 64px;
+  
+    padding: 48px 0px;
+  }
+
+
+  @media screen and (max-width: 680px) {
+
+    .container1{
+        width: 350px;
+        padding: 0px 0 0 0px;
+        overflow: hidden;
+    }
+
+    .input-con1{
+        display: block;
+        width: 348px;
+        padding: 0 0 0 0;
+    }
+    
+    .input-con2{
+        display: block;
+        width: 348px;
+    }
+
+    .input-con4{
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .input-con5{
+        display: inline-block;
+        padding-left: 30px;
+        margin-top: -30px;
+    }
+
+
+
+
+    .con3{
+        padding: 32px 0px;
+      }
+      
+      .zuri-img{
+        margin-left: 0px;
+        width: 185.3px;
+      }
+      
+      .ingressive-img{
+        margin-left: 0px;
+        width: 132.13px;
+      }
+      
+  }
