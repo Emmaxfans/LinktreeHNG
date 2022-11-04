@@ -1,9 +1,11 @@
 import React from 'react';
 import '../App.css'
 
-export default function footer () {
+const footer= () => {
 
     return(
+
+      <div>
 
         <div className='container-fluid con3'>
         <div className='row'>
@@ -23,9 +25,10 @@ export default function footer () {
          </div>
 
       </div>
+      </div>
 
     )
     
 };
 
-// export default footer;
+export default footer;

@@ -1,6 +1,5 @@
 import React from "react";
 import '../App.css'
-import { Link } from "react-router-dom";
 
 const Landing= () => {
 
@@ -77,9 +76,9 @@ const Landing= () => {
 
         <div className='row'>
           <div className='col-lg-12 md-6 sm-6  con1'>
-              <Link to='/contact' id='contact'>
+              <a href='/contact' id='contact'>
                <p className='text-center padding-con'>Contact</p>
-              </Link>  
+              </a>  
           </div>
         </div>
       </div>
@@ -91,25 +90,6 @@ const Landing= () => {
         <a href='https://github.com/Emmaxfans'>
         <img src='./images/github (2).png' alt='github-logo' className='git-img'/>
         </a>
-
-      </div>
-
-      <div className='container-fluid con3'>
-        <div className='row'>
-          <div className='col-lg-4 md-4 sm-4'>
-          <img src='./images/zurii.png' alt='zuri-logo' className='zuri-img'/>
-          </div>
-
-          <div className='col-lg-4 md-4 sm-4'>
-          <p className='p2'>HNG Internship 9 Frontend Task</p>
-          </div>
-
-          <div className='col-lg-4 md-4 sm-4'>
-          <img src='./images/logo2.b6de37f7d5d4c7f03d0.png' alt='slack-logo' className='ingressive-img img-fluid'/>
-          </div>
-
-
-         </div>
 
       </div>
       
